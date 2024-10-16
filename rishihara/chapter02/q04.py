@@ -1,11 +1,6 @@
 a=[4, 8, 3, 4, 1]
-aa = []
-for i in a:
-    if i % 2 == 0:
-        aa.append(0)
-    else:
-        aa.append(1)
-print(aa)
+b = [0 if x%2==0 else 1for x in a ]
+print(b)
 
 aa.count(1)
 
