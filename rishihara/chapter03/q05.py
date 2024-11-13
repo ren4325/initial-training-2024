@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+print(f"a   sina    cosa    tana")
+
 for i in range(0, 361, 1):
   sin = np.sin(i*2*np.pi/360)
   cos = np.cos(i*2*np.pi/360)
